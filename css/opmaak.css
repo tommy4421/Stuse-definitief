@@ -95,13 +95,25 @@
 
 .inschrijven
 {
+  position: relative;
+  top: 25%;
+  transform: translateY(-25%);
+}
 
+.prijzen
+{
+    display: inline;
+}
+
+.space 
+{ 
+    margin-top: 70px; 
 }
 
 .btn-primary 
 {
     background: #404040;
-    color: #404040;
+    color: white;
     width: 150px;
 }
 
@@ -109,6 +121,10 @@
 {
     border: #404040;
     color: #404040;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #262626;
 }
 
 
@@ -120,7 +136,14 @@
 
 /*Contact*/
 
-/*Contact formulier zie de website */
+.contact
+{
+    text-align: center;
+    font-size: 12px;
+    background:content-box fixed;
+    background-size: cover;
+    height: 100%;
+}
 
 
 /* Footer */
