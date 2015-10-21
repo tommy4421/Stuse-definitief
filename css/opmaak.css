@@ -17,11 +17,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    text-align: center; 
+    color:white;
     font-size: 40px;
 }
-
-
 
 /*Over ons*/
 
@@ -42,10 +40,10 @@
 
 }
 
-.fa-arrow-circle-down
+#btn
 {
     color:white;
-    position:absolute;
+    position:center;
     bottom:0;
 }
 
@@ -59,11 +57,11 @@
     height: 100%;
 }
 
-.seniorentext
+#seniorentext
 {
-    background-color:white;
-    text-align: left; 
-    font-size: 20px;
+    color: white;
+    vertical-align: auto;
+    font-size: 16px;
 }
 
 /*Studenten*/
@@ -76,12 +74,44 @@
     height: 100%;
 }
    
-.studententext
+#studententext
 {
-    background-color:white;
-    text-align: left; 
-    font-size: 20px;
+    color: white;
+    vertical-align: auto;
+    font-size: 16px;
 }
+
+
+/*Inschrijven*/
+
+#inschrijven
+{
+    text-align: center;
+    font-size: 12px;
+    background:content-box fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.inschrijven
+{
+
+}
+
+.btn-primary 
+{
+    background: #404040;
+    color: #404040;
+    width: 150px;
+}
+
+.btn-primary.outline
+{
+    border: #404040;
+    color: #404040;
+}
+
+
 
 /*Maps*/
 
@@ -90,7 +120,7 @@
 
 /*Contact*/
 
-/*Contact formulier zie de website van bootstrap*/
+/*Contact formulier zie de website */
 
 
 /* Footer */
