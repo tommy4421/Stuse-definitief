@@ -4,3 +4,107 @@
     font-size:large;
 }
 
+  /* Footer */
+#footer {
+		position: relative;
+		height: 22em;
+		margin: 0;
+		background: #2c2c2c;
+		color: #999;
+		color: rgba(185, 186, 187, 0.5);
+		overflow: hidden;
+		bottom:0;
+
+
+	}
+      #hr {
+      position:absolute;
+      background: #4a4a4a;
+      margin-top:18em;
+      width:150em;
+      height:.05em;
+}
+      
+	  #footer b{
+	  	display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+	  }
+
+	  
+
+		#footer a {
+			color: #999;
+			color: rgba(185, 186, 187, 0.5);
+		}
+
+			#footer a:hover {
+				color: #bbb;
+				color: #b9babb;
+			}
+
+		#volgons {
+			position:absolute;
+			margin-top: 1.5em;
+			margin-left: 5em;
+			
+			
+			
+		}
+
+		    #volgons a{
+		    	padding:0.7em;
+		    	padding-left:0;
+
+		    }
+
+		 #tweets{
+		 	position:absolute;
+		 	margin-top: 1.5em;
+		 	margin-left:25em;
+		 } 
+
+		 #nieuws{
+		 	position: absolute;
+		 	margin-top: 1.5em;
+		 	margin-left: 40em;
+		 	margin-right: 5em;
+		 }  
+
+		#footer .copy {
+			position: absolute;
+			left: 5em;
+			bottom: 0;
+			height: 5em;
+			line-height: 5em;
+			margin: 0;
+			
+		}
+
+			#footer .copy li {
+				font-size: 0.9em;
+				margin: 0;
+			}
+
+				#footer .copy li a {
+					padding: 0.5em;
+				}
+
+
+		#footer .menu {
+			position: absolute;
+			right: 5em;
+			height: 5em;
+			line-height: 5em;
+			margin:0;
+			bottom: 0;
+            
+		}
+
+			#footer .menu li {
+				font-size: 0.9em;
+			}
