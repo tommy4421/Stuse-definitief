@@ -4,9 +4,75 @@
     font-size:large;
 }
 
+.logo
+{
+    max-width:200px; margin-top: -7px;
+}
+
+/*Home*/
+
+.home
+{
+    background: url("../images/senior1.jpg") no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center; 
+    font-size: 40px;
+}
+
+
+
+/*Over ons*/
+
+.ava
+{
+    height: 80px;
+    width:80px;
+    border-radius: 200px;
+}
+
+.overons
+{
+    text-align: center;
+    font-size: 12px;
+    background:content-box fixed;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.fa-arrow-circle-down
+{
+    color:white;
+    position:absolute;
+    bottom:0;
+}
+
+/*Senioren*/
+
+.senioren
+{
+    background: url("../images/senior2.jpg") no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.seniorentext
+{
+    background-color:white;
+    text-align: left; 
+    font-size: 20px;
+}
+
+
+
+
   /* Footer */
 #footer {
 		position: relative;
+        display: block;
 		height: 22em;
 		margin: 0;
 		background: #2c2c2c;
@@ -14,9 +80,8 @@
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 		bottom:0;
-
-
 	}
+
       #hr {
       position:absolute;
       background: #4a4a4a;
@@ -34,8 +99,6 @@
         border-style: inset;
         border-width: 1px;
 	  }
-
-	  
 
 		#footer a {
 			color: #999;
