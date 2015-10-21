@@ -66,10 +66,34 @@
     font-size: 20px;
 }
 
+/*Studenten*/
+
+.studenten
+{
+    background: url("../images/student.jpg") no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+   
+.studententext
+{
+    background-color:white;
+    text-align: left; 
+    font-size: 20px;
+}
+
+/*Maps*/
+
+/*Hier komt de maps opmaak*/ 
 
 
+/*Contact*/
 
-  /* Footer */
+/*Contact formulier zie de website van bootstrap*/
+
+
+/* Footer */
 #footer {
 		position: relative;
         display: block;
