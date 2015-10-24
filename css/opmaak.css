@@ -1,3 +1,7 @@
+   ol, ul {
+	list-style: none;
+	  }
+
 .navbar
 { 
     height:100px;
@@ -131,7 +135,11 @@
 
 /*Maps*/
 
-/*Hier komt de maps opmaak*/ 
+#map
+{
+    width: auto;
+    height: 500px;
+}
 
 
 /*Contact*/
@@ -146,11 +154,81 @@
 }
 
 
+/* List:
+ Zorgt voor streepjes naast de woorden onderaan in de footer.menu in plaats van de normale bolletjes in een ul; */
+
+	ul.default {
+		list-style: disc;
+		padding-left: 1em;
+	}
+
+		ul.default li {
+			padding-left: 0.5em;
+		}
+
+	ul.icons {
+		cursor: default;
+	}
+
+		ul.icons li {
+			display: inline-block;
+		}
+
+		ul.icons a {
+			display: inline-block;
+			width: 2em;
+			height: 2em;
+			line-height: 2em;
+			text-align: center;
+			border: 0;
+		}
+
+	ul.menu {
+		cursor: default;
+	}
+
+		ul.menu li {
+			display: inline-block;
+			line-height: 1em;
+			border-left: solid 1px rgba(145, 146, 147, 0.25);
+			padding: 0 0 0 0.5em;
+			margin: 0 0 0 0.5em;
+		}
+
+			ul.menu li:first-child {
+				border-left: 0;
+				padding-left: 0;
+				margin-left: 0;
+			}
+
+	ul.actions {
+		cursor: default;
+	}
+
+		ul.actions li {
+			display: inline-block;
+			margin: 0 0 0 0.5em;
+		}
+
+			ul.actions li:first-child {
+				margin-left: 0;
+			}
+
+	ol.default {
+		list-style: decimal;
+		padding-left: 1.25em;
+	}
+
+		ol.default li {
+			padding-left: 0.25em;
+		}
+
+
 /* Footer */
 #footer {
 		position: relative;
         display: block;
-		height: 22em;
+		height: 30em;
 		margin: 0;
 		background: #2c2c2c;
 		color: #999;
@@ -162,7 +240,7 @@
       #hr {
       position:absolute;
       background: #4a4a4a;
-      margin-top:18em;
+      margin-top:25em;
       width:150em;
       height:.05em;
 }
@@ -190,7 +268,7 @@
 		#volgons {
 			position:absolute;
 			margin-top: 1.5em;
-			margin-left: 5em;
+			margin-left: 14em;
 			
 			
 			
@@ -205,28 +283,28 @@
 		 #tweets{
 		 	position:absolute;
 		 	margin-top: 1.5em;
-		 	margin-left:25em;
+		 	margin-left:50em;
 		 } 
 
 		 #nieuws{
 		 	position: absolute;
 		 	margin-top: 1.5em;
-		 	margin-left: 40em;
+		 	margin-left: 94em;
 		 	margin-right: 5em;
 		 }  
 
 		#footer .copy {
 			position: absolute;
-			left: 5em;
+			left: 11em;
 			bottom: 0;
 			height: 5em;
 			line-height: 5em;
-			margin: 0;
+			margin:0;
 			
 		}
 
 			#footer .copy li {
-				font-size: 0.9em;
+				font-size: 1.1em;
 				margin: 0;
 			}
 
@@ -237,7 +315,7 @@
 
 		#footer .menu {
 			position: absolute;
-			right: 5em;
+			right: 16em;
 			height: 5em;
 			line-height: 5em;
 			margin:0;
@@ -246,5 +324,6 @@
 		}
 
 			#footer .menu li {
-				font-size: 0.9em;
+				font-size: 1.3em;
 			}
+
