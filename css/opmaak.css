@@ -4,8 +4,10 @@
 
 .navbar
 { 
-    height:100px;
+    height:80px;
     font-size:large;
+    background-color: white;
+    background-image: none;
 }
 
 .logo
@@ -15,8 +17,18 @@
 
 /*Home*/
 
+.slogan
+{
+    font-size: 80%;
+    position: relative;
+    top: 30%;
+    left: 10%;
+    transform: translateY(-25%);
+}
+
 .home
 {
+    margin-top: 80px;
     background: url("../images/senior1.jpg") no-repeat center center fixed;
     background-repeat: no-repeat;
     background-size: cover;

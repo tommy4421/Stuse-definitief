@@ -13,47 +13,42 @@
 
 <body>
 
-    <!-- Menu blok wanneer het scherm klein is. -->
-     <nav class="navbar navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+            <nav class="navbar navbar-fixed-top">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Brand</a>
+                    </div>
 
-                <a class="navbar-brand" rel="home" href="index.html" title="Stuse">
-                    <img class="logo" src="images/logo.png">
-                </a>
-            </div> 
-
-            <!-- Menu zelf --> 
-               <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#overons">OVER ONS</a></li>
-                        <li><a href="#senioren">SENIOREN</a></li>
-                        <li><a href="#studenten">STUDENTEN</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                    </ul>
-                </div>
-            </div>
-    </nav>
-
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        
+                        <ul class="nav navbar-nav navbar-fixed-top navbar-right">
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#overons">OVER ONS</a></li>
+                            <li><a href="#senioren">SENIOREN</a></li>
+                            <li><a href="#studenten">STUDENTEN</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
 
     <!-- Home -->
     <section id="home">
         <div class="home">
-            <div class="slogan">
-                <p>
-                    De zorg van <strong>toen</strong>, door de<br />
-                    generatie van <strong>nu</strong>.
-                </p>
-            </div>
+            <p>
+                De zorg van <strong>toen</strong>, door de<br />
+                generatie van <strong>nu</strong>
+            </p>
+            <a id="btn" href="#overons"><i class="fa fa-arrow-circle-down"></i></a>
         </div>
-        <a id="btn" href="#overons"><i class="fa fa-arrow-circle-down"></i></a>
     </section>
 
 
@@ -242,52 +237,30 @@
     <!--Contact-->
     <section id="contact" class="contact">
 
-        <br />
+        <div class="span8" id="divMain">
 
-        <h1>Contact</h1>
+            <h1>Contact Us</h1>
+            <h3 style="color:#FF6633;"><?php echo $_GET[msg];?></h3>
+            <hr>
+            <!--Start Contact form -->
+            <form name="enq" method="post" action="email/" onsubmit="return validation();">
 
-        <div class="container">
-            <!-- Contacts -->
-            <div id="contacts">
-                <div class="row">
-                    <!-- Alignment -->
-                    <div class="col-sm-offset-3 col-sm-6">
-                        <!-- Form itself -->
-                        <form name="sentMessage" class="well" id="contactForm" novalidate>
+                <fieldset>
+                    <input type="text" name="name" id="name" value="" class="input-block-level" placeholder="Name" />
+                    <input type="text" name="email" id="email" value="" class="input-block-level" placeholder="Email" />
+                    <textarea rows="11" name="message" id="message" class="input-block-level" placeholder="Comments">
+                        </text    area>
+                        <div class="actions">
+                            <input type="submit" value="Send Your Message" name="submit" id="submitButton" class="btn btn-info pull    -right" title="Click here to submit your message!" />
+                        </div>
+                </fieldset>
 
-                            <div class="control-group">
-                                <div class="controls">
-                                    <input type="text" class="form-control"
-                                           placeholder="Volledige naam" id="name" required
-                                           data-validation-required-message="Vul uw naam in" />
-                                    <p class="help-block"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="controls">
-                                    <input type="email" class="form-control" placeholder="Email"
-                                           id="email" required
-                                           data-validation-required-message="Vul uw email adres in" />
-                                </div>
-                            </div>
-
-                            <div class="control-group">
-                                <div class="controls">
-                                    <textarea rows="10" cols="100" class="form-control"
-                                              placeholder="Bericht" id="message" required
-                                              data-validation-required-message="Vul uw bericht in" minlength="5"
-                                              data-validation-minlength-message="Min 5 characters"
-                                              maxlength="999" style="resize:none"></textarea>
-                                </div>
-                            </div>
-                            <div id="success"> </div> <!-- For success/fail messages -->
-                            <button type="submit" class="btn btn-primary pull-right">Verzend</button><br />
-                        </form>
-                    </div>
-                </div>
-            </div>
+            </form>
+            <!--End Contact form -->
         </div>
-    </section>
+
+
+
 
         <!-- Google Maps -->
         <div id="map">
@@ -312,7 +285,10 @@
             </script>
 
         </div>
-   
+
+    </section>
+
+
 
         <!-- Footer -->
         <footer id="footer">
