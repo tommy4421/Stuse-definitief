@@ -11,6 +11,12 @@
     background-image: none;
 }
 
+
+.navbar-inverse .navbar-toggle .icon-bar 
+{
+    background-color: black;
+}
+
 .logo
 {
     max-width:200px; margin-top: -7px;
