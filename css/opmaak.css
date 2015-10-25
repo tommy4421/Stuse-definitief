@@ -6,6 +6,7 @@
 { 
     height:80px;
     font-size:large;
+    color: black;
     background-color: white;
     background-image: none;
 }
@@ -76,9 +77,12 @@
 #seniorentext
 {
     color: white;
-    vertical-align: auto;
     font-size: 16px;
+    position: relative;
+    top: 30%;
 }
+
+
 
 /*Studenten*/
 
@@ -93,8 +97,9 @@
 #studententext
 {
     color: white;
-    vertical-align: auto;
     font-size: 16px;
+    position: relative;
+    top: 20%;
 }
 
 
@@ -113,7 +118,7 @@
 {
   position: relative;
   top: 25%;
-  transform: translateY(-25%);
+
 }
 
 .prijzen
