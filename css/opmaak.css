@@ -51,8 +51,8 @@
 {
     text-align: center;
     font-size: 12px;
-    background:content-box fixed;
-    background-size: cover;
+    /*background:content-box fixed;
+    background-size: cover;*/
     height: 100%;
 
 }
@@ -344,3 +344,29 @@
 				font-size: 1.3em;
 			}
 
+ .col-xs-height {
+	height: 1400px;
+}
+
+.overons2 {
+	    text-align: center;
+    font-size: 12px;
+    /*background:content-box fixed;
+    background-size: cover;*/
+}
+
+.beterehoogte {
+	height: 300px;
+}
+
+.knoppen {
+	padding-top: 1%;
+}
+
+.knopkleur {
+	color: grey;
+}
+
+.knopkleur:hover {
+	color: grey;
+}
