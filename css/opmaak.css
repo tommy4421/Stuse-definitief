@@ -254,7 +254,7 @@
 /* Footer */
 #footer {
 		position: relative;
-        display: block;
+		display: block;
 		height: 30em;
 		margin: 0;
 		background: #2c2c2c;
@@ -267,19 +267,19 @@
       #hr {
       position:absolute;
       background: #4a4a4a;
-      margin-top:25em;
+      margin-top:35em;
       width:150em;
       height:.05em;
 }
       
 	  #footer b{
 	  	display: block;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: inset;
-        border-width: 1px;
+                margin-top: 0.5em;
+            	margin-bottom: 0.5em;
+        	margin-left: auto;
+		margin-right: auto;
+		border-style: inset;
+        	border-width: 1px;
 	  }
 
 		#footer a {
@@ -292,67 +292,37 @@
 				color: #b9babb;
 			}
 
-		#volgons {
-			position:absolute;
-			margin-top: 1.5em;
-			margin-left: 14em;
-			
-			
-			
-		}
+
+		    }
 
 		    #volgons a{
 		    	padding:0.7em;
 		    	padding-left:0;
 
 		    }
-
-		 #tweets{
-		 	position:absolute;
-		 	margin-top: 1.5em;
-		 	margin-left:50em;
-		 } 
-
-		 #nieuws{
-		 	position: absolute;
-		 	margin-top: 1.5em;
-		 	margin-left: 94em;
-		 	margin-right: 5em;
-		 }  
-
-		#footer .copy {
-			position: absolute;
-			left: 11em;
-			bottom: 0;
-			height: 5em;
-			line-height: 5em;
-			margin:0;
 			
-		}
+         .menutext{
 
-			#footer .copy li {
-				font-size: 1.1em;
-				margin: 0;
-			}
+         	font-size:18px;
+         	font-color: white;
+         }
+         
+		
+           
+           /* Bottom : Stukje onder footer;*/
+           
+           #bottom{
 
-				#footer .copy li a {
-					padding: 0.5em;
-				}
-
-
-		#footer .menu {
-			position: absolute;
-			right: 16em;
-			height: 5em;
-			line-height: 5em;
-			margin:0;
-			bottom: 0;
-            
-		}
-
-			#footer .menu li {
-				font-size: 1.3em;
-			}
+                    position: relative;
+                    display: block;
+		    height: 5em;
+		    margin: 0;
+		    background: #252525;
+		    color: #999;
+		    color: rgba(185, 186, 187, 0.5);
+		    overflow: hidden;
+		    bottom:0;
+	          }
 
  .col-xs-height {
 	height: 1400px;
