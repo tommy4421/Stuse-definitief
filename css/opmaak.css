@@ -120,6 +120,8 @@
 {
     text-align: center;
     font-size: 12px;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 .inschrijven
@@ -377,4 +379,9 @@
 
 .knopkleur:hover {
 	color: grey;
+}
+
+#overons {
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
