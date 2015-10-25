@@ -13,7 +13,7 @@
 
 <body>
 
-    <!-- Menu blok wanneer het scherm klein is. -->
+        <!-- Menu blok wanneer het scherm klein is. -->
      <nav class="navbar navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -31,12 +31,12 @@
 
             <!-- Menu zelf --> 
                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#overons">OVER ONS</a></li>
-                        <li><a href="#senioren">SENIOREN</a></li>
-                        <li><a href="#studenten">STUDENTEN</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
+                    <ul class="nav navbar-nav navbar-right knoppen">
+                        <li><a href="#home" class="knopkleur">HOME</a></li>
+                        <li><a href="#lijntje" class="knopkleur">OVER ONS</a></li>
+                        <li><a href="#senioren" class="knopkleur">SENIOREN</a></li>
+                        <li><a href="#studenten" class="knopkleur">STUDENTEN</a></li>
+                        <li><a href="#contact" class="knopkleur">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -59,12 +59,13 @@
 
     <!-- Over ons -->
     <section id="overons">
-        <div class="overons">
+        <div class="overons beterehoogte">
 
-            <hr class="lijntje">
+            <hr id="lijntje" style="width: 500px;">
             <h2>OVER ONS</h2>
-            <hr class="lijntje">
-
+            <hr style="width: 500px;">
+            <!-- <div class="container">
+                <div class="row"> -->
             <div class="col-xs-12 col-md-3 col-lg-3">
                 <image src="images/groep/chiel.jpg" class="ava" />
                 <p>
@@ -108,7 +109,10 @@
                 </p>
             </div>
 
-            <div class="col-xs-12 col-md-4 col-lg-4">
+        
+    </div>
+    <div class="container">
+            <div class="col-xs-12 col-md-4 col-lg-4 overons2">
                 <image src="images/groep/martijn.jpg" class="ava" />
                 <p>
                     Ik ben Martijn Muskens,
@@ -118,7 +122,7 @@
                     Heeft u vragen? Mail mij via martijnm@stuse.nl
                 </p>
             </div>
-            <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-md-4 col-lg-4 overons2">
                 <image src="images/groep/maud.jpg" class="ava" />
                 <p>
                     Hallo, ik ben Maud Michielsen,
@@ -131,7 +135,7 @@
                 </p>
             </div>
 
-            <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-md-4 col-lg-4 overons2">
                 <image src="images/groep/tom.jpg" class="ava" />
                 <p>
                     Hallo, ik ben Tom Maljaars,
@@ -141,33 +145,10 @@
                     dan kan u bellen : +31 0123-12345678 of mailen: t.maljaars@stuse.nl
                 </p>
             </div>
+        </div>
+</div>
 
             <a id="btn" href="#senioren"><i class="fa fa-arrow-circle-down"></i></a>
-    </section>
-
-
-    <!-- Senioren -->
-    <section id="senioren" >
-        <div class="senioren">
-            <div class="container">
-                <div class="col-xs-12 col-md-6 senioren">
-                    <div id="seniorentext">
-                        <header>
-                            <h2>Laat u ontzorgen door de service van Stuse</h2>
-                        </header>
-                        <p>
-                            Ervaart u ook dat de bezuinigingen in de zorg een flinke impact hebben op de mantelzorg?
-                            Mist u de persoon die uw huishoudelijke taken kon ontnemen?
-                            StuSe is een nieuwe onderneming die jonge sociale talenten de kans bied om ouderen te helpen met hun huishoudelijke taken.
-                            Dit zorgt er niet alleen voor dat de generatie van nu er een leuke mogelijkheid bij heeft in de arbeidsmarkt, maar ook dat we op deze manier de gehele mantelzorg van ouderen kunnen verzorgen.
-                            Zeg nou zelf, wat is er leuker dan een enthousiaste student over de vloer te hebben die u ook nog eens helpt met uw huishoudelijke taken.
-                        </p>
-                    </div>
-                    </div>
-            </div>
-        </div>
-
-        <a id="btn" href="#inschrijven"><i class="fa fa-arrow-circle-down"></i></a>
     </section>
 
 
